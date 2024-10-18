@@ -155,7 +155,7 @@ def save_to_sqlite(df_dict, conn):
         print(f"Saved {len(df)} rows to table {table_name}")
 
 if __name__ == '__main__':
-    file_path = "C:/Users/msamy/Downloads/2023_NIBRS_NATIONAL_MASTER_FILE.txt"
+    file_path = "C:/2023_NIBRS_NATIONAL_MASTER_FILE.txt"
     chunk_size = 100000  # Adjust based on your system's memory
     
     conn = sqlite3.connect('nibrs_data.db')
